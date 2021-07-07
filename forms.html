@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>html forms</title>
+</head>
+
+<body style="background-color: cadetblue;">
+    <h1>Registration Form</h1><br>
+    <form style="background-color: cyan;">
+        <form action="/signin.aspx" target="_blank" method="POST">
+            <label for="First name">First name: </label>
+            <input type="text" id="user name" name="user name" placeholder="Please enter your first name"><br><br>
+            <label for="lastname">Last name: </label>
+            <input type="text" id="lastname" name="Last name"><br><br>
+            <label for="password">password: </label>
+            <input type="password" id="password" name="password"><br><br>
+            <label for="mobilenumber">Mobile Number: </label>
+            <input type="number" id="mobilenumber" name="MobileNumber"><br><br>
+            <label for="mailid">Mail Id: </label>
+            <input type="email" id="mailid" name="Mailid"><br><br>
+            <label for="gender:">gender: </label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label>
+            <input type="radio" id="others" name="gender" value="others">
+            <label for="others">others</label><br><br>
+            <label for="date of birth">D.O.B: </label>
+            <input type="date" id="date of birth" value="date of birth"><br><br>
+            <label for="languages">Languages: </label>
+            <input type="checkbox" id="Language 1" name="Language 1" value="English">
+            <label for="Language 1">English</label>
+            <input type="checkbox" id="Language 2" name="Language 2" value="Hindi">
+            <label for="Language 2">Hindi</label>
+            <input type="checkbox" id="Language 3" name="Language 3" value="Telugu">
+            <label for="Language 3">Telugu</label><br><br>
+            <label for="job location">Job Location: </label>
+            <select id="job location" name="Job Location">
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="Kolkatta">Kolkatta</option>
+                <option value="chennai">Chennai</option>
+                <option value="bengaluru">Bengaluru</option>
+            </select><br><br>
+            <label for="image">Image: </label>
+            <input type="file" id="image" name="image"><br><br>
+            <label for="resume">Upload Resume: </label>
+            <input type="file" id="resume" name="resume"><br><br>
+            <label for="user feedback">feedback :</label><br><br>
+            <textarea id="user feedback" name="feedback" rows="10" cols="100"></textarea><br><br>
+            <input type="submit" name="submit" value="submit">
+            <input type="reset" name="reset" value="Reset"><br><br>
+            <hr> Thankyou for Registration....! <br><br>
+            <h2>If you have any quaries please contact : 123456777<br>Mail id:cxagsvxbj@gmail.com</h2>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Employee Details: </legend>
+                <label for="user name">First name: </label>
+                <input type="text" id="user name" name="user name"><br><br>
+                <label for="lastname">Last name: </label>
+                <input type="text" id="lastname" name="Last name"><br><br>
+            </fieldset>
+        </form>
+</body>
+
+</html>
