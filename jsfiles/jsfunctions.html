@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>js Functions</title>
+</head>
+
+<body>
+    <label for="fnumber">First Number :</label>
+    <input type="text" id="fnumber" name="fnumber"><br><br>
+    <label for="Snumber">Second Number :</label>
+    <input type="text" id="Snumber" name="Snumber"><br><br>
+    <input type="text" onchange="addition(a,b)" name="addition"><br><br>
+    <script>
+        var a, b;
+        function addition(a, b) {
+            var k = a + b;
+            return k;
+        }
+        function fun(a, b) {
+            var k = a - b;
+            return k;
+        }
+        function fun(a, b) {
+            var k = a * b;
+            return k;
+        }
+        function fun(a, b) {
+            var k = a + b;
+            return k;
+        }
+        function fun(a, b) {
+            var k = a % b;
+            return k;
+        }
+        var k = addition(8, 4);
+        document.writeln(k);
+       /* document.writeln(substraction(5, 4));
+         document.writeln(addition(5, 4));
+         document.writeln(multiplication(5, 4));
+         document.writeln(division(5, 4));
+         document.writeln(mod(5, 4));*/
+    </script>
+</body>
+
+</html>

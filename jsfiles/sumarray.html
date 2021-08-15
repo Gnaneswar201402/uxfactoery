@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head><title>Array concept</title></head>
+<body>
+    <script>
+        let n=[5,6,8,3,11];
+        //print normal array
+        document.write("normal array :"+"["+n+"]"+"<br>");
+        //sort of the array
+        let a=n.sort();
+        document.write("array sort :"+"["+a+"]"+"<br>");
+         //reverse of the array
+         let b=n.reverse();
+        document.write("array reverse :"+"["+b+"]"+"<br>");
+          //maximun of the array
+        document.write("Maximum array :"+"["+Math.max(...n)+"]"+"<br>");
+          //minimun of the array
+          document.write("Minimum array :"+"["+Math.min(...n)+"]"+"<br>");
+          //Sum And Averge  of the array
+          var sum=0;
+          for(var i=0;i<n.length;i++){
+              sum+=n[i];
+              avg=sum/n.length;
+          }
+          document.write("Sum of the array :"+"["+sum+"]"+"<br>");
+          document.write("Average of the array :"+"["+avg+"]"+"<br>");
+          var len=n.length;
+          document.writeln("langth of the array :"+len+'<br>');
+    </script>
+</body>
+
+</html>
